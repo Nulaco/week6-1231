@@ -1,0 +1,15 @@
+.product{
+    height: 255px;
+    @include phone(){
+        height: 165px;
+    }
+}
+
+.page_link:hover{
+    text-decoration: underline !important;
+    color: $primary-light;
+}
+
+.product_img:hover{
+    opacity: 0.6;
+}

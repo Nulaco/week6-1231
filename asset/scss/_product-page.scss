@@ -1,0 +1,12 @@
+.description{
+    position: absolute;
+    right: 0;
+    @include pad(){
+        position: unset;
+    }
+}
+.page-img-h{
+    @include pad(){
+        height: 460px;
+    }
+}

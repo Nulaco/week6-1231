@@ -1,0 +1,64 @@
+.header_DM{
+    background-image:url(../asset/images/index1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 870px;
+}
+.header_nav{
+    @include pad(){
+        display: none !important;
+    }
+}
+.header_collapsemenu{
+    display: none !important;
+    @include pad(){
+        display: block !important;
+    }
+}
+.icon-circleNumber{
+    background-color: $primary;
+    border-radius: 50%;
+    padding: 2px 7px;
+    position: absolute;
+    top: -8px;
+    right: 8px;
+}
+.header_collapsemenu_hidden{
+    background-color: $secondary;
+    display: none;
+}
+
+//product page
+.header_navbar{
+    @include phone(){
+        display: none !important;
+    }
+}
+
+
+//footer
+.copyright{
+    padding-left: 1.25rem;
+    @include phone(){
+        font-size: 0.875rem;
+        padding-left: 2rem;
+    }
+}
+.footer_nav{
+    @include phone(){
+        display: none !important;
+    };
+};
+
+//product page
+.footer_DM{
+    background-image:url(../asset/images/index10.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 600px;
+}
+.footer_DM_sub{
+    padding-top: 312px;
+    padding-bottom: 112px;
+}
+

@@ -1,0 +1,12 @@
+.display-none{
+    display: block;
+    @include pad(){
+        display: none;
+    }
+}
+.change-row{
+    @include pad(){
+        display: flex;
+        flex-direction: row; 
+    }
+}
